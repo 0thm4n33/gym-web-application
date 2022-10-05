@@ -1,0 +1,43 @@
+.navWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navLink,.navLogo,.navWrapper{
+    width: 94%;
+    display: flex;
+}
+
+.navLogo{
+    justify-content: space-between;
+    margin: 7px;
+    padding: 7px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.navLink{
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 10px;
+    text-align: center;
+    font-family: "Bitter";
+    width: 60px;
+    border: 3px solid white;
+}
+
+.navLink > a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-family: "Bitter";
+}
+
+.navLink > a:hover{
+    transition: 0.5 ease;
+    text-decoration: underline;
+}

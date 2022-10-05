@@ -1,0 +1,24 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.sideBar{
+    flex: 15% 0 0;
+    background-color: black;
+}
+
+.adminLayout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100vh;
+}
+.body{
+    margin-top: 10.5%;
+}
+
+.adminBody{
+    width:83%
+}
